@@ -20,3 +20,6 @@ final.elf: main.o led.o stm32_startup.o
 clean: 
 	rm -rf *.o *.elf
 
+flash:
+	openocd -f board\st_nucleo_f4.cfg
+
