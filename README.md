@@ -2,7 +2,6 @@
 
 Firmware for the STM32F401RE (Nucleo-F401RE) built from nothing: no STM32CubeIDE, no HAL, no vendor startup files. Every file in this repo is hand-written.
 
-![Nucleo board running the firmware](docs/board.jpg)
 
 ## What's here
 - **Startup code**: vector table, reset handler, `.data` copy and `.bss` zeroing before `main`
